@@ -35,6 +35,6 @@ def classify_number(n):
         return "positive odd"
     elif not positivo and par:
         return "negative even"
-    else:  # not positivo and not par
+    elif not positivo and not par: 
         return "negative odd"
 
